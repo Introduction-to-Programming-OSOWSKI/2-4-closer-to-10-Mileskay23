@@ -1,7 +1,7 @@
 def close10(x,y):
-    if x - y == 10:
+    if x - y > 10:
         return 10
 
-    print(close10(12,2))
+    print(close10(8,12))
     
 
