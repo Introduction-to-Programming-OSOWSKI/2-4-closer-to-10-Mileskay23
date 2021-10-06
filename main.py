@@ -1,9 +1,9 @@
 def close10(x,y):
     if x-10 < y-10:
-        return True 
+        return x
     else:
-        return False
+        return y
 
-    print(close10(8,12))
+print(close10(8,12))
     
 
